@@ -53,7 +53,7 @@ function getDefaultModules() {
         loader: 'json-loader'
       },
       {
-        test: /\.(mp4|ogg|svg)$/,
+        test: /\.(mp4|ogg)$/,
         loader: 'file-loader'
       }
     ]

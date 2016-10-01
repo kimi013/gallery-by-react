@@ -13,8 +13,7 @@ let imageDatas =  require('../data/imageDatas.json');
 imageDatas = (function getImageURL(imageDatasArr) {
   for (let i = 0, len = imageDatasArr.length; i < len; i++) {
     let singleImageData = imageDatasArr[i];
-
-    singleImageData.imageURL = '../images/' + singleImageData.fileName;
+    singleImageData.imageURL = require('../images/' + singleImageData.fileName);
   }
 
   return imageDatasArr;

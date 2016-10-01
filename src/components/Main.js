@@ -19,6 +19,7 @@ imageDatas = (function getImageURL(imageDatasArr) {
   return imageDatasArr;
 })(imageDatas);
 
+
 /**
  * 获取区间内的一个随机值
  */
@@ -192,26 +193,6 @@ class AppComponent extends React.Component {
       left: halfStageW - halfImgW,
       top: halfStageH - halfImgH
     };
-
-    /**
-     * Left Zone:
-     * x > 0 - imgFigure.width / 2
-     * x < stage.width / 2 - imgFigure.width / 2 * 3
-     * y > 0 - imgFigure.height / 2
-     * y < stage.height - imgFigure.height / 2
-     *
-     * Right Zone:
-     * x > stage.width / 2 + imgFigure.width / 2
-     * x < stage.width - imgFigure.width / 2
-     * y > 0 - imgFigure.height / 2
-     * y < stage.height - imgFigure.height / 2
-     *
-     * Up Zone:
-     * x > stage.width - imgFigure.width
-     * x < stage.width / 2
-     * y > 0 - imgFigure.height / 2
-     * y < stage.height / 2 - imgFigure.height / 2 * 3
-     */
 
     // 计算左、右侧区域图片位置的取值范围
     this.Constant.hPosRange.leftSecX[0] = -halfImgW;

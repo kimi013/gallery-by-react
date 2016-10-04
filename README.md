@@ -5,7 +5,7 @@ Gallery By React
 
 ## Demo & Examples
 
-Live demo: [https://kimi013.github.io/gallery-by-react/]
+Live demo: [https://kimi013.github.io/gallery-by-react/](https://kimi013.github.io/gallery-by-react/)
 
 To build the example locally, run:
 ```

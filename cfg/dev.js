@@ -26,7 +26,7 @@ let config = Object.assign({}, baseConfig, {
   ],
   module: defaultSettings.getDefaultModules(),
   postcss: [autoprefixer({
-    browers: ['last 2 versions']
+    browers: ['last 2 versions', 'firefox 15']
   })]
 });
 
